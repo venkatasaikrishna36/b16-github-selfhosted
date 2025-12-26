@@ -1,0 +1,13 @@
+  name: testing_gha_selfhostedrunner
+    
+    on:
+     push
+    
+    jobs:
+     b16_first-job:
+      runs-on: self-hosted
+    
+      steps:
+       - name: message
+         run: echo "Hello AWS-Devops"
+  
